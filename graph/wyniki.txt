@@ -1,0 +1,20 @@
+Path: 1 0 Distance: 0.5 Shop:0 Time:7.5 minutes
+Path: 2 1 0 Distance: 2.5 Shop:0 Time:37.5 minutes
+Path: 4 12 Distance: 2.0 Shop:12 Time:30.0 minutes
+Path: 5 11 Distance: 1.0 Shop:11 Time:15.0 minutes
+Path: 6 7 0 Distance: 2.0 Shop:0 Time:30.0 minutes
+Path: 7 0 Distance: 1.0 Shop:0 Time:15.0 minutes
+Path: 8 0 Distance: 2.0 Shop:0 Time:30.0 minutes
+Path: 9 10 7 0 Distance: 2.0 Shop:0 Time:30.0 minutes
+Path: 10 7 0 Distance: 1.5 Shop:0 Time:22.5 minutes
+Path: 13 12 Distance: 0.5 Shop:12 Time:7.5 minutes
+Path: 14 13 12 Distance: 2.5 Shop:12 Time:37.5 minutes
+Path: 15 16 12 Distance: 2.5 Shop:12 Time:37.5 minutes
+Path: 16 12 Distance: 0.5 Shop:12 Time:7.5 minutes
+Path: 17 12 Distance: 0.5 Shop:12 Time:7.5 minutes
+Path: 18 16 12 Distance: 2.5 Shop:12 Time:37.5 minutes
+Path: 19 18 16 12 Distance: 3.5 Shop:12 Time:52.5 minutes
+Path: 20 21 17 12 Distance: 2.0 Shop:12 Time:30.0 minutes
+Path: 21 17 12 Distance: 1.0 Shop:12 Time:15.0 minutes
+Path: 22 10 7 0 Distance: 2.0 Shop:0 Time:30.0 minutes
+Path: 23 22 10 7 0 Distance: 3.0 Shop:0 Time:45.0 minutes

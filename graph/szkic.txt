@@ -1,0 +1,65 @@
+﻿#include "stdafx.h"
+//Szkic:
+//----
+//
+//Do projektu dodac modul kolejki priorytetowej(!!odwrotne nierownosci na priorytety -
+//	-najwyzej z najmniejszym priorytetem)
+//
+//	main()
+//{
+//	-nazwa pliku we i wy parametrem programu
+//		- wczytac ilosc wierzcholkow grafu z pliku
+//
+//		- wykreowac graf : jako tablice wierzcholkow(Vertex) z listmi sasiedztwa
+//
+//		struktura Vertex zawiera : liste sasiedztwa(lista prosta), odleglosci do kazdego,
+//		czas przejscia(4km / h), czy sklep czy dom,
+//		numer wezla ktory jest najblizszym sklepem,
+//		droga do niego, czas przejscia calosci
+//
+//		- metoda przegladania grafu w glab obliczyc czasy przejscia pomiedzy wierzcholkami
+//		void DFS(Vertex*);
+//
+//	-dla kazdego wierzcholka roznego od sklepu znalezc nakrotsza droge do sklepu
+//		--  int Dijkstra(Vertex* village, int nSize, int nFirst)
+//		--zastosowac kolejke priorytetowa o wielkosci nie wiekszej jak ilosc wezlow grafu
+//
+//		- wydrukowac caly graf do pliku(nr wierz, sklep, odl do sklepu, droga do sklepu, czas przejscia)
+//
+//		- usunac graf
+//}
+
+//int Dijkstra(Vertex* village, int nSize, int nFirst)
+//{
+//	// kolejka ma maksymalnie tyle elementow ile jest wierzch. grafu 
+//	PQueue* q = InitQueue(nSize);
+//
+//	//tablica przechowuj�ca warto�ci aktualnie najkr�tszej drogi
+//	int* PathLen = wykreowa� tablice o rozmiarze maks tyle ile wierzch
+//
+//		zainicjowac tabl Pathlen jakas maksymalna wartoscia //INT_MAX;
+//
+//		Enqueue(q, nFirst, 0); //add to PriorQueue nFirst elem z priorytetem 0 and
+//	odleglosc do niego ustawic na zero // PathLen[ nFirst ] <- 0
+//
+//		while (!(kolejka prior q pusta))
+//		{
+//			int k = Dequeue(q); // pobierz z kolejki prioryt elem //
+//			if (k to sklep)
+//				return PathLen[k];
+//
+//			// jesli nie to
+//			Dla kaZdego nastepnika tego wierzch k
+//			{
+//				int nNode = j - ty nastepnik k, do ktorego jest krawedz;
+//
+//			if (PathLen[k] + dlugosc krawedzi do j - tego < PathLen[nNode])
+//			{
+//				PathLen[nNode] = PathLen[k] + dleglosc do j - tego;
+//				Enqueue(q, nNode, PathLen[nNode]);
+//			}
+//			}
+//		}
+//
+//	return 0;
+//}
